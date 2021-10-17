@@ -22,9 +22,9 @@ button:hover {
   cursor: pointer;
 }
 
-/* li {
+li {
   margin-right: 8px;
-} */
+}
 
 .input-area {
   background-color: #c1ffff;
@@ -63,5 +63,5 @@ button:hover {
 .list-row {
   display: flex;
   align-items: center;
-  /* padding-bottom: 4px; */
+  padding-bottom: 4px;
 }

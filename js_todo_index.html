@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <title>TODO_APP(JS)</title>
-  <link rel="stylesheet" href="src/styles.css">
+  <link rel="stylesheet" href="src/styles.css" />
 </head>
 
 <body>
@@ -14,35 +14,13 @@
   </div>
   <div class="incomplete-area">
     <p class="title">未完了のTODO</p>
-    <ul>
-      <li>
-        <div class="list-row">
-            <p>TODOです</p>
-            <button>完了</button>
-            <button>削除</button>
-        </div>
-      </li>
-      <li>
-        <div class="list-row">
-          <p>TODOです</p>
-          <button>完了</button>
-          <button>削除</button>
-        </div>
-      </li>
-    </ul>
+    <ul id="incomplete-list"></ul>
   </div>
   <div class="complete-area">
     <p class="title">完了したTODO</p>
-    <ul>
-      <li>
-        <div class="list-row">
-          <p>TODOでした</p>
-          <button>戻す</button>
-        </div>
-      </li>
-    </ul>
+    <ul id="complete-list"></ul>
   </div>
-  <script src="src/js_todo_index.js"></script>
+  <script src="src/index.js"></script>
 </body>
 
 </html>
